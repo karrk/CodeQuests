@@ -89,7 +89,8 @@ namespace BOJ_1181
                 while (true)
                 {
                     // start 인덱스가 right 값보다 작으며
-                    // start 포인터가 가리키는 문자열 요소가 피벗의 문자열과 교환해야할 상황이 벌어지지 않는다면
+                    // start 포인터가 가리키는 문자열 요소가 피벗의 문자열과 교환해야할
+                    // 상황이 벌어지지 않는다면
                     // start 를 계속 증가시킴
                     if (start > m_rightIdx)
                         break;
@@ -101,7 +102,8 @@ namespace BOJ_1181
 
                 while (true)
                 {
-                    // end 포인터가 가리키는 문자열과 피벗의 문자열과 교환해야할 상황이 벌어지지 않는다면
+                    // end 포인터가 가리키는 문자열과 피벗의 문자열과 교환해야할 상황이
+                    // 상황이 벌어지지 않는다면
                     // end 를 계속 감소시킴
                     if (end <= m_leftIdx)
                         break;
